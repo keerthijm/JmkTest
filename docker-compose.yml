@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  jmktest:
+    image: ${DOCKER_REGISTRY}jmktest
+    build:
+      context: .
+      dockerfile: JmkTest/Dockerfile
